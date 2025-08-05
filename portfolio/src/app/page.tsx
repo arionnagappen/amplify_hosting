@@ -136,7 +136,7 @@ export default function Portfolio() {
           />
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-dark-blue">Sample Profile Section</h2>
           <p className="text-lg text-text-gray max-w-2xl mx-auto leading-relaxed">
-            This section shows how you'd highlight a profile or project description.
+            This section shows how you&rsquo;d highlight a profile or project description.
           </p>
         </div>
       </section>
