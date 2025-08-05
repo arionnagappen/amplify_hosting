@@ -3,6 +3,7 @@ import { Construct } from 'constructs';
 import * as amplify from '@aws-cdk/aws-amplify-alpha'
 import * as codebuild from 'aws-cdk-lib/aws-codebuild';
 import { version } from 'os';
+// import * as sqs from 'aws-cdk-lib/aws-sqs';
 
 export class PortfolioInfrastructureStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props?: cdk.StackProps) {
