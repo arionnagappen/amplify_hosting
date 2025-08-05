@@ -62,7 +62,7 @@ export default function Portfolio() {
               className="rounded-full mx-auto mb-8 border-4 border-light-blue-bg shadow-lg"
             />
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-dark-blue">
-              {"Hi, I'm John Doe 👋 Cloud Engineer"}
+              {"Hi, I&rsquo;m John Doe 👋 Cloud Engineer"}
             </h1>
             <p className="text-xl text-text-gray mb-8 max-w-3xl mx-auto leading-relaxed">
               This is a test portfolio project showcasing a simple AWS deployment pipeline.
