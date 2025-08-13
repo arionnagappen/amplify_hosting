@@ -62,7 +62,7 @@ export default function Portfolio() {
               className="rounded-full mx-auto mb-8 border-4 border-light-blue-bg shadow-lg"
             />
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-dark-blue">
-              Hi, I&rsquo;m John Doe 👋 Cloud Engineer
+              Hi, I&rsquo;m John Doe 👋 Cloud Engineer & This Proves My CI Automation Works!
             </h1>
             
             <p>Testing staging pipeline</p>
