@@ -46,7 +46,7 @@ export class PortfolioInfrastructureStack extends cdk.Stack {
           },
           cache: {
             paths: [
-              'node/modules/**/*',
+              'node_modules/**/*',
               '.next/cache/**/*'
             ]
           }
@@ -54,9 +54,15 @@ export class PortfolioInfrastructureStack extends cdk.Stack {
       })
     })
 
-    // Every update made to the main branch is deployed into production
+    // Staging Branch
+    const stagingBranch = amplifyApp.addBranch('staging', {
+      autoBuild: true
+    })
+
+    // Production Branch
     const mainBranch = amplifyApp.addBranch('main',{
       autoBuild: true
     })
+
   }
 }
