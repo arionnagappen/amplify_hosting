@@ -1,1 +1,1 @@
-# amplify_hosting testing staging branch
+# amplify_hosting test staging branch
