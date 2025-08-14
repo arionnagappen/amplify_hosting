@@ -64,7 +64,9 @@ export default function Portfolio() {
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-dark-blue">
               Hi, I&rsquo;m John Doe 👋 Cloud Engineer & This Proves My CI Automation Works!
             </h1>
-            
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-dark-blue">
+              v1
+            </h1>            
             <p>Testing staging pipeline</p>
             <p className="text-xl text-text-gray mb-8 max-w-3xl mx-auto leading-relaxed">
               This is a test portfolio project showcasing a simple AWS deployment pipeline.
