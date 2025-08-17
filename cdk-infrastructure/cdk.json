@@ -1,5 +1,5 @@
 {
-  "app": "npx ts-node --prefer-ts-exts bin/portfolio-infrastructure.ts",
+  "app": "npx ts-node --prefer-ts-exts bin/amplify-app.ts",
   "watch": {
     "include": [
       "**"
