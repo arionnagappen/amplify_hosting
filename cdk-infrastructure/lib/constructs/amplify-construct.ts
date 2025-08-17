@@ -11,7 +11,7 @@ export interface AmplifyProps {
 }
 
 export class AmplifyConstruct extends Construct {
-  public readonly app: amplify.Appc
+  public readonly app: amplify.App
 
   constructor(scope: Construct, id: string, props: AmplifyProps) {
     super(scope, id)
